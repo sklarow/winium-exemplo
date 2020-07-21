@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: testcases.TestSample
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 11.912 sec <<< FAILURE!
+multiplyTest(testcases.TestSample)  Time elapsed: 3.014 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Display is 72] but found [Display is 0]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at testcases.TestSample.multiplyTest(TestSample.java:49)
+
